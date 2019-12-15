@@ -1,0 +1,4 @@
+result/
+saved_model/
+**/__pycache__/
+*.sh
