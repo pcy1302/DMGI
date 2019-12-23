@@ -25,7 +25,7 @@ mkdir saved_model
 ```
 python main.py --embedder DMGI --dataset imdb --metapaths MAM,MDM --isAttn
 ```
-- Refer to the director ``data`` for preprocessing for ``DBLP`` and ``Amazon`` datasets.
+- Refer to the directory ``data`` for preprocessing for ``DBLP`` and ``Amazon`` datasets.
 
 ### Data format [(ex) IMDB]
 - A dictionary containing the following keys
