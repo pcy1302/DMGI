@@ -40,7 +40,7 @@ python main.py --embedder DMGI --dataset imdb --metapaths MAM,MDM --isAttn
 @article{park2019unsupervised,
   title={Unsupervised Attributed Multiplex Network Embedding},
   author={Park, Chanyoung and Kim, Donghyun and Han, Jiawei and Yu, Hwanjo},
-  journal={arXiv preprint arXiv:1911.06750},
-  year={2019}
+  booktitle={AAAI},
+  year={2020}
 }
 ```
