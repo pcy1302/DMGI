@@ -1,3 +1,4 @@
+# Code based on https://github.com/PetarV-/DGI/blob/master/models/dgi.py
 import torch
 torch.manual_seed(0)
 torch.cuda.manual_seed_all(0)
