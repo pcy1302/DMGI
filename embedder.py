@@ -4,14 +4,12 @@ import torch
 from utils import process
 import torch.nn as nn
 from layers import AvgReadout
-gpu_dict = {5: 1, 6: 2, 7: 3, 4: 0, 0: 4, 1: 5, 2: 6, 3: 7, -1: 'cpu'}
 
 class embedder:
-    def __init__(self, args):
         args.batch_size = 1
         args.sparse = True
         args.metapaths_list = args.metapaths.split(",")
-        args.gpu_num_ = gpu_dict[args.gpu_num]
+        args.gpu_num_ = args.gpu_num
         if args.gpu_num_ == 'cpu':
             args.device = 'cpu'
         else:
