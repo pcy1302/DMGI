@@ -370,7 +370,7 @@ data = {'label':labels, 'feature':features, 'PAP':PAP, 'PPP':PPrefP, 'PATAP':PAT
 
 
 print('dblp_num_labels_{}.pkl'.format(num_train))
-pkl.dump(data, open('dblp_num_labels_{}.pkl'.format(num_train),"wb"), protocol=4)
+pkl.dump(data, open('dblp_{}.pkl'.format(num_train),"wb"), protocol=4)
 
 def print_sparsity(mat, name):
     print("[{}] Density: {}".format(name, np.mean(sum(mat==1) / mat.shape[1])))
