@@ -23,7 +23,7 @@ def parse_args():
     parser.add_argument('--drop_prob', type=float, default=0.5)
     parser.add_argument('--reg_coef', type=float, default=0.001)
     parser.add_argument('--sup_coef', type=float, default=0.1)
-    parser.add_argument('--sc', type=float, default=1.0, help='GCN self connection')
+    parser.add_argument('--sc', type=float, default=3.0, help='GCN self connection')
     parser.add_argument('--margin', type=float, default=0.1)
     parser.add_argument('--gpu_num', type=int, default=0)
     parser.add_argument('--patience', type=int, default=20)
