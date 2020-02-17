@@ -11,6 +11,7 @@ python preprocess_dblp.py num_train
 - Then run
   - ````python main.py --embedder DMGI --dataset dblp_$num_train --metapaths PAP,PPP,PATAP --isAttn````
 - Note that ACM dataset can be downloaded from https://github.com/Jhy1993/HAN/tree/master/data
+  - Update: 2020/02/17 The data from the above link has been changed. Please download acm data from [ **here** ](https://drive.google.com/open?id=1_ISZ17JHpp2R8K7CyFgu_SRnkkLNE8X3)
   - ````python main.py --embedder DMGI --dataset acm --metapaths PAP,PLP --isAttn````
 
 ### Data format
