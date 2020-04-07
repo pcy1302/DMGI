@@ -3,7 +3,8 @@
 ### How to Run (DBLP dataset)
 
 - Download DBLP-Citation-network V8 dataset from https://www.aminer.cn/citation, and name the downloaded file ``dblp.txt``
-- Preprocess DBLP dataset (num_trai: number of labels for training)
+(In case the above link is broken, download ``dblp.txt`` from [ **here** ](https://drive.google.com/open?id=1ISAnMHE-qhkzvwTUl69K0os7CRbQjr3X)
+- Preprocess DBLP dataset (num_train: number of labels for training)
 ```
 python preprocess_dblp.py num_train
 ```
