@@ -32,6 +32,7 @@ python main.py --embedder DMGI --dataset imdb --metapaths MAM,MDM --isAttn
   - ``train_idx``: training index, ``val_idx``: validation index, ``test_idx``: test index, ``feature``: feature matrix, ``label``: labels
   - Relations: ``MDM``, ``MAM``
 
+- <b>NEW (20/10/06): You can download all the preprocessed datasets used in the paper from [here](https://drive.google.com/file/d/1hYY7wiUj7ZYL_rdOvupg3Yl6KLQ_6ZYr/view?usp=sharing)</b>
 ### Cite (Bibtex)
 - If you find ``DMGI`` useful in your research, please cite the following paper:
   - Park, Chanyoung, Donghyun Kim, Jiawei Han, and Hwanjo Yu. "Unsupervised Attributed Multiplex Network Embedding." AAAI 2020.
