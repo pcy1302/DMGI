@@ -21,7 +21,7 @@ git clone https://github.com/pcy1302/DMGI.git
 cd DMGI
 mkdir saved_model
 ```
-- Download ``IMDB`` data from [ **here** ](https://drive.google.com/open?id=1NmYHoAPw-scQ-MQFxxQD6v5vTG_7gRwQ) to ``data``
+- Download ``IMDB`` data from [ **here** ](https://www.dropbox.com/s/ntutrhk8nr3vveb/imdb.pkl?dl=0) to ``data``
 ```
 python main.py --embedder DMGI --dataset imdb --metapaths MAM,MDM --isAttn
 ```
@@ -32,7 +32,7 @@ python main.py --embedder DMGI --dataset imdb --metapaths MAM,MDM --isAttn
   - ``train_idx``: training index, ``val_idx``: validation index, ``test_idx``: test index, ``feature``: feature matrix, ``label``: labels
   - Relations: ``MDM``, ``MAM``
 
-- <b>NEW (20/10/06): You can download all the preprocessed datasets used in the paper from [here](https://drive.google.com/file/d/1hYY7wiUj7ZYL_rdOvupg3Yl6KLQ_6ZYr/view?usp=sharing)</b>
+- <b>NEW (20/10/06): You can download all the preprocessed datasets used in the paper from [here](https://www.dropbox.com/s/48oe7shjq0ih151/data.tar.gz?dl=0)</b>
 ### Cite (Bibtex)
 - If you find ``DMGI`` useful in your research, please cite the following paper:
   - Park, Chanyoung, Donghyun Kim, Jiawei Han, and Hwanjo Yu. "Unsupervised Attributed Multiplex Network Embedding." AAAI 2020.
