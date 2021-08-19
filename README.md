@@ -1,7 +1,7 @@
 # Unsupervised Attributed Multiplex Network Embedding (DMGI)
 
 <p align="center">
-    <a href="http://icdm2020.bigke.org/" alt="Conference">
+    <a href="https://aaai.org/Conferences/AAAI-20/" alt="Conference">
         <img src="https://img.shields.io/badge/AAAI'20-brightgreen" /></a>   
     <a href="https://pytorch.org/" alt="PyTorch">
       <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white" /></a>   
