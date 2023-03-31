@@ -16,7 +16,7 @@ Nodes in a multiplex network are connected by multiple types of relations. Howev
 
 ### Paper
 - [ **Unsupervised Attributed Multiplex Network Embedding (*AAAI 2020*)** ](https://arxiv.org/abs/1911.06750)
-  - [_**Chanyoung Park**_](http://pcy1302.github.io), Donghyun Kim, Jiawei Han, Hwanjo Yu
+  - [_**Chanyoung Park**_](http://dsail.kaist.ac.kr/professor/), Donghyun Kim, Jiawei Han, Hwanjo Yu
 
 ### Requirements
 
